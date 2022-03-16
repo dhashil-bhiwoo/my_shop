@@ -1,0 +1,9 @@
+test@test.com           test1234
+admin@accenture.com     superadmin1 (have admin role)
+john.doe@domain.com     passwordX1
+alice@something.com     Alice123
+user@user.com           Hello1234
+user1@user.com		M1234567
+test@login1.com		testlogin1
+ivanander@gmail.com	password1 (have admin role)
+jack@sparrow.com	jack1234

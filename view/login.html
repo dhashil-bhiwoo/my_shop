@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title>User Login</title>
+	    <script src="../js/form_dyn.js"></script>
+		<script src="../js/log_val.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" />
+	</head>
+	<body>
+        <ul id="menu">
+		    <li><a href="../index.php">Home</a></li>
+		    <li><a href="login.html">Login</a></li>
+		    <li><a href="reg.html">Register</a></li>
+		</ul>
+	    <div id="header">
+			<h2>User Login</h2>
+		</div>
+		<form method="post" action="../logic/loginproc.php" name="login" id="login" onsubmit="return logval()">
+			<table id="reg">
+				<tr>
+					<td>Email:</td>
+					<td><input type="email" name="email" value="Enter your email" onfocus="ClearPlaceHolder(this)" onblur="SetPlaceHolder(this)"/></td>
+				</tr>
+				<tr>
+					<td>Password:</td>
+					<td><input type="password" name="password" /></td>
+				</tr>
+				<tr>
+                    <td></td>
+					<td align="right"><input type="submit" value="Login" name="login" /></td>
+				</tr>
+			</table>
+		</form>
+        <p>Forgot your password? <a href="forgot.html">Click Here!</a></p>
+        <div id="footer">
+	    footer text
+        <ul id="footerNav">
+            <li><a href="#">About Us</a><li>
+            <li><a href="#">Phone: 651658123851</a><li>
+            <li><a href="#">Hotline: 8718775757514</a><li>
+            <li><a href="#">SMS: 4198</a><li>
+        </ul>
+	</div>
+	</body>
+</html>
